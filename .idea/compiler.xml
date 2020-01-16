@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eladmin-common" />
+        <module name="MDTService" />
+        <module name="mdt-eladmin-system" />
+        <module name="eladmin-tools" />
+        <module name="MDTAPI" />
+        <module name="eladmin-generator" />
+        <module name="eladmin-logging" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="maven-archiver" target="1.5" />
+      <module name="MDT-ALL" target="1.8" />
+      <module name="MDT_ALL" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="MDT" options="-parameters" />
+      <module name="MDT-ALL" options="-parameters" />
+      <module name="MDTAPI" options="-parameters" />
+      <module name="MDTService" options="-parameters" />
+      <module name="MDT_ALL" options="-parameters" />
+      <module name="eladmin-common" options="-parameters" />
+      <module name="eladmin-generator" options="-parameters" />
+      <module name="eladmin-logging" options="-parameters" />
+      <module name="eladmin-tools" options="-parameters" />
+      <module name="mdt-eladmin-system" options="-parameters" />
+    </option>
+  </component>
+</project>
