@@ -1,7 +1,7 @@
 package cn.knowimage.service.impl;
 
-import cn.knowimage.mapper.UserMapper;
 import cn.knowimage.ims.vo.User;
+import cn.knowimage.mapper.UserMapper;
 import cn.knowimage.service.UserService;
 import com.tencentyun.TLSSigAPIv2;
 import org.springframework.beans.factory.annotation.Autowired;

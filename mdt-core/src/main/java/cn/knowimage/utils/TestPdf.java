@@ -1,6 +1,6 @@
 package cn.knowimage.utils;
 
-import cn.knowimage.ims.group.MakePdfPojo;
+import cn.knowimage.ims.vo.MakePdfPojo;
 import com.itextpdf.text.*;
 import com.itextpdf.text.pdf.BaseFont;
 import com.itextpdf.text.pdf.PdfPCell;
