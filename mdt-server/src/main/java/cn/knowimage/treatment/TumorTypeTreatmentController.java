@@ -1,4 +1,4 @@
-package cn.knowimage.Treatment;
+package cn.knowimage.treatment;
 
 import cn.knowimage.service.TreatmentTypeService;
 import cn.knowimage.service.TumorTypeTreatmentService;
@@ -6,8 +6,6 @@ import net.sf.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
 
 /**
  * 肿瘤类型治疗方式控制类

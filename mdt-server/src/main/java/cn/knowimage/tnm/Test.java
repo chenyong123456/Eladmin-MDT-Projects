@@ -1,4 +1,4 @@
-package cn.knowimage.Tnm;
+package cn.knowimage.tnm;
 
 import cn.knowimage.ims.utils.HttpClientUtil;
 import cn.knowimage.pojo.instance.Decision;

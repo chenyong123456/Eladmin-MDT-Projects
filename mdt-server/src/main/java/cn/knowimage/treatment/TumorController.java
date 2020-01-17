@@ -1,4 +1,4 @@
-package cn.knowimage.Treatment;
+package cn.knowimage.treatment;
 
 import cn.knowimage.pojo.instance.TumorType;
 import cn.knowimage.service.TumorTypeService;

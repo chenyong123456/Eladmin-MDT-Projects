@@ -1,4 +1,4 @@
-package cn.knowimage.Treatment;
+package cn.knowimage.treatment;
 import cn.knowimage.pojo.instance.TreatmentType;
 import cn.knowimage.service.TreatmentPlanService;
 import cn.knowimage.service.TreatmentTypeService;

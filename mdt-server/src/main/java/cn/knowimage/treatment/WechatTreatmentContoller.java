@@ -1,4 +1,4 @@
-package cn.knowimage.Treatment;
+package cn.knowimage.treatment;
 
 
 import cn.knowimage.exception.NullException;

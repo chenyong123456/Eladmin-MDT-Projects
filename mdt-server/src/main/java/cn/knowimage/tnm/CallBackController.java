@@ -1,4 +1,4 @@
-package cn.knowimage.Tnm;
+package cn.knowimage.tnm;
 
 import cn.knowimage.service.CallBack;
 import cn.knowimage.service.impl.TimFactory;

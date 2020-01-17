@@ -1,4 +1,4 @@
-package cn.knowimage.Image;
+package cn.knowimage.image;
 
 import cn.knowimage.exception.NullException;
 import cn.knowimage.service.impl.WechatImageInfoImpl;
