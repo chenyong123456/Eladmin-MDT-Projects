@@ -1,5 +1,7 @@
 package cn.knowimage.service;
 
+import net.sf.json.JSONObject;
+
 import java.util.List;
 
 /**
@@ -17,8 +19,8 @@ public interface TumorTypeTreatmentService {
   void addAndUpdateTumorTypeTreatment(String tumorId, String creator, String checkList);
   /**
    * 查询所有的肿瘤类型对应的治疗方式
-   * @return List<TumorTypeTreatmentPojo> 肿瘤类型对应的治疗方式集合
+   * @returnJ SONObject 肿瘤类型对应的治疗方式集合
    */
-   List<Integer> queryTreatmentByTumor(Integer tumorId);
+  JSONObject queryTreatmentByTumor(Integer tumorId);
   //List<TumorTypeTreatmentPojo> queryTreatmentByTumor(String tumorId);
 }
