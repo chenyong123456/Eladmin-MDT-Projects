@@ -1,9 +1,7 @@
 package cn.knowimage.Treatment;
 
-import cn.knowimage.pojo.instance.TreatmentType;
 import cn.knowimage.service.TreatmentTypeService;
 import cn.knowimage.service.TumorTypeTreatmentService;
-import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -42,32 +40,6 @@ public class TumorTypeTreatmentController {
   @GetMapping("queryTreatmentByTumor")
   @ResponseBody
   public JSONObject queryTreatmentByTumor(String tumorId) {
-    System.out.println("tumorId==============>"+tumorId);
-    JSONArray jsonTreatment = new JSONArray();
-    JSONObject resultJson = new JSONObject();
-    //查询出所有的治疗方式
-    List<TreatmentType> typeList = treatmentTypeService.queryAllTreatment();
-    List<Integer> list = tumorTypeTreatmentService.queryTreatmentByTumor(Integer.parseInt(tumorId));
-    jsonTreatment = JSONArray.fromObject(typeList);
-    //如果该肿瘤没有分配治疗方式
-    if(list.size()==0){
-      resultJson = new JSONObject();
-      JSONArray jsonTumor = new JSONArray();
-      resultJson.put("allTreatment",jsonTreatment);
-      resultJson.put("tumorOfTreatment",jsonTumor);
-    }else{
-      resultJson = new JSONObject();
-      JSONArray jsonTumor = new JSONArray();
-      //根据肿瘤id查询治疗方式
-      for (int i = 0; i < list.size(); i++) {
-        System.out.println(list.get(i));
-        jsonTumor.add(list.get(i));
-      }
-      resultJson.put("allTreatment",jsonTreatment);
-      resultJson.put("tumorOfTreatment",jsonTumor);
-      //查询出该肿瘤对应的治疗方式
-
-    }
-    return resultJson;
+    return tumorTypeTreatmentService.queryTreatmentByTumor(Integer.parseInt(tumorId));
   }
 }
