@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -13,6 +16,8 @@
         <option value="$PROJECT_DIR$/../MDT_Project/MDTALL/pom.xml" />
         <option value="$PROJECT_DIR$/../MDT_Project/MDTAPI/pom.xml" />
         <option value="$PROJECT_DIR$/../MDTALL/pom.xml" />
+        <option value="$PROJECT_DIR$/MDT/pom.xml" />
+        <option value="$PROJECT_DIR$/MDTCore/pom.xml" />
       </list>
     </option>
   </component>

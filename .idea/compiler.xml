@@ -8,12 +8,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eladmin-common" />
-        <module name="MDTService" />
-        <module name="mdt-eladmin-system" />
-        <module name="eladmin-tools" />
-        <module name="MDTAPI" />
         <module name="eladmin-generator" />
         <module name="eladmin-logging" />
+        <module name="eladmin-tools" />
+        <module name="mdt-core" />
+        <module name="mdt-eladmin-system" />
+        <module name="mdt-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,16 +24,16 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="MDT" options="-parameters" />
       <module name="MDT-ALL" options="-parameters" />
-      <module name="MDTAPI" options="-parameters" />
-      <module name="MDTService" options="-parameters" />
       <module name="MDT_ALL" options="-parameters" />
       <module name="eladmin-common" options="-parameters" />
       <module name="eladmin-generator" options="-parameters" />
       <module name="eladmin-logging" options="-parameters" />
       <module name="eladmin-tools" options="-parameters" />
+      <module name="mdt-core" options="-parameters" />
       <module name="mdt-eladmin-system" options="-parameters" />
+      <module name="mdt-project" options="-parameters" />
+      <module name="mdt-server" options="-parameters" />
     </option>
   </component>
 </project>

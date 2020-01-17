@@ -19,7 +19,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.*;
 
 @Service
-@Transactional(propagation = Propagation.SUPPORTS, readOnly = true, rollbackFor = Exception.class)
+@Transactional(propagation = Propagation.SUPPORTS, readOnly = true, rollbackFor = exception.class)
 public class BusinesspermissionServiceImpl implements BusinesspermissionService {
    @Autowired
    private BusinesspermissionRepository businesspermissionRepository;
@@ -36,7 +36,7 @@ public class BusinesspermissionServiceImpl implements BusinesspermissionService 
     }
 
     @Override
-    @Transactional(rollbackFor = Exception.class)
+    @Transactional(rollbackFor = exception.class)
     public BusinesspermissionDTO create(Businesspermission resources) {
         if(businesspermissionRepository.findByName(resources.getName()) != null){
             throw new EntityExistException(Businesspermission.class,"name",resources.getName());
@@ -67,7 +67,7 @@ public class BusinesspermissionServiceImpl implements BusinesspermissionService 
     }
 
     @Override
-    @Transactional(rollbackFor = Exception.class)
+    @Transactional(rollbackFor = exception.class)
     public void delete(Long id) {
 List<Businesspermission> businesspermissionList=businesspermissionRepository.findByPid(id);
 for(Businesspermission businesspermission:businesspermissionList){

@@ -175,7 +175,7 @@ public class UserController {
           resources.setCreator(SecurityUtils.getUsername());
           checkLevel(resources);
           userService.create(resources);
-        }catch (Exception e){
+        }catch (exception e){
           throw new BadRequestException("该用户名或者该邮箱已存在");
         }
           return new ResponseEntity(HttpStatus.NO_CONTENT);*/
@@ -219,7 +219,7 @@ public class UserController {
             try {
                 checkLevel(resources);
                 userService.update(resources);
-            }catch (Exception e){
+            }catch (exception e){
                 throw new BadRequestException("该用户名或者该邮箱已存在");
             }
             return new ResponseEntity(HttpStatus.NO_CONTENT);

@@ -40,7 +40,7 @@ public class GenUtil {
         List<String> templateNames = new ArrayList<>();
         templateNames.add("Entity");
         templateNames.add("Dto");
-        templateNames.add("Mapper");
+        templateNames.add("mapper");
         templateNames.add("Repository");
         templateNames.add("Service");
         templateNames.add("ServiceImpl");
@@ -199,8 +199,8 @@ public class GenUtil {
             return packagePath + "service" + File.separator + "dto" + File.separator + className + "QueryCriteria.java";
         }
 
-        if ("Mapper".equals(templateName)) {
-            return packagePath + "service" + File.separator + "mapper" + File.separator + className + "Mapper.java";
+        if ("mapper".equals(templateName)) {
+            return packagePath + "service" + File.separator + "mapper" + File.separator + className + "mapper.java";
         }
 
         if ("Repository".equals(templateName)) {

@@ -45,9 +45,9 @@ public class ConfigurerAdapter implements WebMvcConfigurer {
 //
 //        ObjectMapper objectMapper = new ObjectMapper();
 //        SimpleModule simpleModule = new SimpleModule();
-//        simpleModule.addSerializer(BigInteger.class, ToStringSerializer.instance);
-//        simpleModule.addSerializer(Long.class, ToStringSerializer.instance);
-//        simpleModule.addSerializer(Long.TYPE, ToStringSerializer.instance);
+//        simpleModule.addSerializer(BigInteger.class, ToStringSerializer.pojo);
+//        simpleModule.addSerializer(Long.class, ToStringSerializer.pojo);
+//        simpleModule.addSerializer(Long.TYPE, ToStringSerializer.pojo);
 //        objectMapper.registerModule(simpleModule);
 //        jackson2HttpMessageConverter.setObjectMapper(objectMapper);
 //        converters.add(jackson2HttpMessageConverter);

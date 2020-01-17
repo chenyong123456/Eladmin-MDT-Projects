@@ -6,7 +6,7 @@
 
     <parent>
         <groupId>cn.knowimage</groupId>
-        <artifactId>MDT</artifactId>
+        <artifactId>mdt-project</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 

@@ -6,7 +6,7 @@
 
     <!-- 该工程为聚合工程 , -->
     <groupId>cn.knowimage</groupId>
-    <artifactId>MDT</artifactId>
+    <artifactId>mdt-project</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
 
@@ -19,9 +19,9 @@
 
     <modules>
         <module>mdt-eladmin</module>
-        <module>MDTAPI</module>
-        <module>IMS</module>
-        <module>MDTService</module>
+        <module>mdt-server</module>
+        <module>ims</module>
+        <module>mdt-core</module>
     </modules>
 
 </project>

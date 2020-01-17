@@ -32,7 +32,7 @@ public class WechatLoginServiceImpl implements WechatLoginService {
 
 
 //  @Override
-//  @Transactional(rollbackFor = Exception.class)
+//  @Transactional(rollbackFor = exception.class)
 //  public JobDTO create(Job resources) {
 //   // return jobMapper.toDto(jobRepository.save(resources));
 //  }
