@@ -72,7 +72,7 @@ public class IfAcceptServiceImpl implements IfAcceptService {
     @Autowired
     private OperationHistoryMapper operationHistoryMapper;
     /**
-     * 注入departmentMapper
+     * 注入departmentMappervd
      */
     @Autowired
     private OperationTypeMapper operationTypeMapper;
