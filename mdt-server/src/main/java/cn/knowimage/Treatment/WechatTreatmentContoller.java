@@ -84,4 +84,7 @@ public class WechatTreatmentContoller {
             return ClincialResult.build(2000,"返回数据成功",jsonObject);
         }
     }
+
+
+
 }

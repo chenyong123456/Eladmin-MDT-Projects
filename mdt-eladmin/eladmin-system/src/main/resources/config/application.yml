@@ -1,21 +1,14 @@
 server:
-  port: 8008
+  port: 9002
   tomcat:
     uri-encoding: UTF-8 # character encoding to use for URL decoding
     max-http-post-size: 1024
-#wx:
-#  open:
-#    config:
-#      appid:
-#      secret:
-#      redirectUrl: http://www.xxx.com/wxCallBack
-#      csfKey: WeChat_WxJava_Demo
 appsecret: a95107d86eba2432f56079f6ab83d164
 #微信开放平台创建的网站应用的appid
 appid: wx9557062a91dca7fb
 scope: snsapi_login
 #微信开放平台创建的网站 设置的授权回调域
-callBack: https://mdt.knowimage.cn:8008/callBack
+#callBack: https://mdt.knowimage.cn:8008/callBack
 spring:
   profiles:
     active: dev

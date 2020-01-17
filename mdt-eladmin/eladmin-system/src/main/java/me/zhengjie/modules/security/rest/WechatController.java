@@ -35,8 +35,8 @@ public class WechatController {
   @Value("${appid}")
   private String appid;
 
-  @Value("${callBack}")
-  private String callBack;
+  //@Value("${callBack}")
+  // private String callBack;
 
   @Value("${scope}")
   private String scope;
