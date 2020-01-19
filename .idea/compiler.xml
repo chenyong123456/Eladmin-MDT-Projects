@@ -11,6 +11,7 @@
         <module name="eladmin-generator" />
         <module name="eladmin-logging" />
         <module name="eladmin-tools" />
+        <module name="ims" />
         <module name="mdt-core" />
         <module name="mdt-eladmin-system" />
         <module name="mdt-server" />
@@ -26,14 +27,14 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="MDT-ALL" options="-parameters" />
       <module name="MDT_ALL" options="-parameters" />
-      <module name="eladmin-common" options="-parameters" />
-      <module name="eladmin-generator" options="-parameters" />
-      <module name="eladmin-logging" options="-parameters" />
-      <module name="eladmin-tools" options="-parameters" />
-      <module name="mdt-core" options="-parameters" />
-      <module name="mdt-eladmin-system" options="-parameters" />
-      <module name="mdt-project" options="-parameters" />
-      <module name="mdt-server" options="-parameters" />
+      <module name="eladmin-common" options="" />
+      <module name="eladmin-generator" options="" />
+      <module name="eladmin-logging" options="" />
+      <module name="eladmin-tools" options="" />
+      <module name="mdt-core" options="" />
+      <module name="mdt-eladmin-system" options="" />
+      <module name="mdt-project" options="" />
+      <module name="mdt-server" options="" />
     </option>
   </component>
 </project>
